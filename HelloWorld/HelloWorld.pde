@@ -1,26 +1,17 @@
-// Global Variables
-String name = "Mr. Mercer";
+print("Hello World");
+char x = '!';
+println(x);
+println("You said \"Hello!\" to me.");
+//
+String name = "Sadie Kan";
 String phrase = "can count to";
 int highest_number = 0;
 long evenHigher = 0;
 float backwardsCounting = 0.1;
 double wayBack = 0.0;
-
-void setup() {
-  size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker() & landscape-Portrait-Square-Checker()
-}
-
-void draw() {
-  println(highest_number+1);
-  highest_number += 1; //Change to ++, 2, etc.
-  evenHigher += highest_number;
-  println(evenHigher);
-  wayBack -= backwardsCounting;
-  println("Mr. Mercer can count backwards", wayBack);
-}//End draw()
-
-void mousePressed() {
-}//End mousePressed()
-
-void keyPressed() {
-}//End keyPressed()
+//
+// Concatenation
+//print();
+println("\nCompare the difference in the next lines of the concatention describing the coding symbol change and the return difference?");
+println("\n" + name + phrase + highest_number);
+println("\n", name, phrase, highest_number);
