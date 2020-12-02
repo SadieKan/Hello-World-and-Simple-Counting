@@ -12,7 +12,7 @@ double wayBack = 0.0;
 //
 // Concatenation
 //print();
-println("\nCompare the difference in the next lines of the concatention describing the coding symbol change and the return difference?");
+println("\nThe following lines are used for experimenting:");
 println("\n" + name + phrase + first_number);
 println("\t", name, phrase, first_number);
 //
