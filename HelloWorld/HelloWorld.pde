@@ -14,7 +14,7 @@ double wayBack = 0.0;
 //print();
 println("\nCompare the difference in the next lines of the concatention describing the coding symbol change and the return difference?");
 println("\n" + name + phrase + highest_number);
-println("\n", name, phrase, highest_number);
+println("\t", name, phrase, highest_number);
 //
 println("\nCounting with Formulae");
 println("Starting Variable is", highest_number); 
