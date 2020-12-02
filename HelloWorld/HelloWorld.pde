@@ -20,7 +20,7 @@ println("\nCounting with Formulae");
 println("Starting Variable is", first_number); 
 higherNumber = first_number+=10;
 println("Assignment Example, as formula:", first_number*=13);
-println("Memory Variable is", higherNumber);
+println("Memory Variable is", higherNumber-=3);
 println("Arithmetic Example as formula:",first_number/15);
 println("Modulo or Modulus Example:",higherNumber % 4);
 /*
